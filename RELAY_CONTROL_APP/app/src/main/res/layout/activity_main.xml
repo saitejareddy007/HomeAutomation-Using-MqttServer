@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sai.relay_control.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/relay1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="pub1"
+        android:text="Switch1"
+        android:layout_marginTop="50px" />
+
+    <Button
+        android:id="@+id/relay2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="pub2"
+        android:text="Switch2"
+        android:layout_marginTop="100px" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relay3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="pub3"
+        android:text="Switch3"
+        android:layout_marginTop="100px" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relay4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:onClick="pub4"
+        android:text="Switch4"
+        android:layout_marginTop="100px" />
+
+</LinearLayout>
